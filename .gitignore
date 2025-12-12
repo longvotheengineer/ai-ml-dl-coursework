@@ -1,0 +1,60 @@
+# =========================================================================
+# MATLAB .gitignore
+# =========================================================================
+
+# -------------------------------------------------------------------------
+# 1. MATLAB IDE and Workspace Files
+# -------------------------------------------------------------------------
+
+# MATLAB Session/Workspace files
+*.asv          # Autosave files (from editing)
+*.mat          # Workspace data files (if not critical data)
+*.m~           # MATLAB backup files
+*.log          # Log files
+*.sltx         # Simulink Project Files (if generated)
+
+# MATLAB temporary/session folders
+/.SimulinkProject/
+/.slprj/
+/slprj/
+
+# -------------------------------------------------------------------------
+# 2. Output & Compiled Files
+# -------------------------------------------------------------------------
+
+# Compiled M-files (MEX/P-code)
+*.mex* # Compiled MEX files (.mexw64, .mexa64, etc.)
+*.p            # P-code files (compiled, obfuscated M-files)
+*.app          # Compiled application files
+
+# Code generation/deployment folders
+/codegen/
+/deploy/
+/html/         # Generated documentation
+/rtw/          # Real-Time Workshop/Embedded Coder files
+
+# -------------------------------------------------------------------------
+# 3. User-Specific / Local Settings
+# -------------------------------------------------------------------------
+
+# Specific to your local machine or session (do not share)
+.DS_Store      # macOS system file
+*.user         # User settings (Visual Studio Code, etc.)
+/temp/         # Local temporary data directory
+/data/         # Large data files (if not essential for testing)
+
+# -------------------------------------------------------------------------
+# 4. Git / IDE Metadata
+# -------------------------------------------------------------------------
+
+.idea/         # JetBrains IDE settings (IntelliJ/CLion)
+.vscode/       # Visual Studio Code settings (if local)
+*~             # Common editor backup files
+
+# -------------------------------------------------------------------------
+# 5. Backup Files (Common for all OS)
+# -------------------------------------------------------------------------
+
+*.bak
+*.old
+# -------------------------------------------------------------------------
